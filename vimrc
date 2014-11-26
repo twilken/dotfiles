@@ -71,6 +71,9 @@ imap jj <ESC>
 " Show line numbers
 set number
 
+" Highlight current line
+set cursorline
+
 " Enable 256 colors
 set t_Co=256
 
