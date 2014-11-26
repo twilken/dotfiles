@@ -71,6 +71,9 @@ imap jj <ESC>
 " Show line numbers
 set number
 
+" Enable 256 colors
+set t_Co=256
+
 " Set colorschmee
 colorscheme elflord
 
