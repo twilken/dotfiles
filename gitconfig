@@ -1,0 +1,7 @@
+[user]
+	name = tenp
+	email = tenpeoplemeet@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = vim
