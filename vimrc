@@ -75,7 +75,7 @@ set number
 set t_Co=256
 
 " Set colorschmee
-colorscheme elflord
+colorscheme jellybeans
 
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
