@@ -59,6 +59,11 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+" Search
+set nohlsearch
+set incsearch
+set ignorecase
+
 " Exit insert mode with 'jj'
 imap jj <ESC>
 
@@ -71,6 +76,4 @@ colorscheme elflord
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
 " ctrl+W o           Close every window in the current tabview but the current one
-
-
 
