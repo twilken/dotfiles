@@ -80,6 +80,13 @@ set t_Co=256
 " Set colorschmee
 colorscheme jellybeans
 
+" vim-go package settings
+let g:go_fmt_command = "goimports" " use goimports to format code on save
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
 " ctrl+W o           Close every window in the current tabview but the current one
