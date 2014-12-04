@@ -1,0 +1,16 @@
+bash terminal
+................................................................................
+    cd -              Go back and forth between two directories	
+    !!                Run previous command
+
+vim
+................................................................................
+    {                 Jump to previous paragraph
+    }                 Jump to next paragraph
+    %                 Stands for current file
+    :set filetype?    Show filetype for current file
+    :source %         Run current file as VimCode, e.g. reload vimrc 
+
+tmux
+................................................................................
+
