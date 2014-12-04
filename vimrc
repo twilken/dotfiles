@@ -22,8 +22,7 @@ Plugin 'fholgado/minibufexpl.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
+"filetype plugin on "
 " Brief help
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
@@ -86,6 +85,14 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
+
+" German keyboard related remappings
+map ü <C-]>
+map ö [
+map ä ]
+map Ö {
+map Ä }
+map ß /
 
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
