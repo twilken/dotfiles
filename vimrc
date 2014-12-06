@@ -94,6 +94,10 @@ map Ö {
 map Ä }
 map ß /
 
+" Performance related
+set ttyfast
+set lazyredraw
+
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
 " ctrl+W o           Close every window in the current tabview but the current one
