@@ -97,6 +97,12 @@ map ß /
 set ttyfast
 set lazyredraw
 
+" Tabs and spaces
+set tabstop=4
+set softtabstop=0
+set noexpandtab
+set shiftwidth=4
+
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
 " ctrl+W o           Close every window in the current tabview but the current one
