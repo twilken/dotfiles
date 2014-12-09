@@ -16,6 +16,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'fatih/vim-go'
 Plugin 'scrooloose/nerdtree'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -102,6 +104,10 @@ set tabstop=4
 set softtabstop=0
 set noexpandtab
 set shiftwidth=4
+
+" Settings for the gist-vim plugin
+let g:gist_post_private = 1
+let g:gist_show_privates = 1
 
 " Useful key commands
 " ctrl+W R           Swap top/bottom or left/right split
